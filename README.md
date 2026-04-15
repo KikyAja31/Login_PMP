@@ -1,16 +1,24 @@
-# _latihan
+# 📱 Proyek Latihan Flutter - Pertemuan 3
 
-A new Flutter project.
+Selamat datang di repository latihan Flutter saya! Proyek ini dikembangkan sebagai bagian dari mata kuliah **Pemrograman Multi Platform** di Semester 4.
 
-## Getting Started
+## 📝 Deskripsi Proyek
+Aplikasi ini merupakan latihan dasar pengembangan aplikasi mobile menggunakan framework Flutter. Fokus utama pada pertemuan ini adalah memahami struktur folder Flutter, konfigurasi dasar, dan pembuatan UI sederhana.
 
-This project is a starting point for a Flutter application.
+## 🚀 Fitur Utama
+* **Multi-Platform:** Mendukung Android, iOS, Web, dan Desktop (Windows/Linux/macOS).
+* **Clean Structure:** Mengikuti standar struktur folder Flutter terbaru.
+* **Informatics Engineering Project:** Bagian dari tugas akademik Teknik Informatika.
 
-A few resources to get you started if this is your first Flutter project:
+## 🛠️ Teknologi yang Digunakan
+* **Framework:** [Flutter](https://flutter.dev)
+* **Language:** [Dart](https://dart.dev)
+* **Tools:** VS Code / Android Studio
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 👨‍💻 Developer
+**Rifqi Al Ghifari** *NIM: 2411500032* *Teknik Informatika - Semester 4*
+
+---
+> "Practice makes progress." 🚀
