@@ -5,7 +5,9 @@ void main() {
 }
 
 class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+
+  final TextEditingController usernameController = TextEditingController();
+  final TextEditingController passwordController = TextEditingController();
 
   @override
   Widget build(BuildContext context) {
@@ -22,6 +24,8 @@ class MyApp extends StatelessWidget {
 
                 SizedBox(height: 220),
                 TextField(
+                  controller: usernameController,
+                  obscureText: false,
                   decoration: InputDecoration(
                     labelText: "Username",
                     border: OutlineInputBorder(),
@@ -30,10 +34,12 @@ class MyApp extends StatelessWidget {
 
                 SizedBox(height: 10),
 
-                                TextField(
-                  decoration: InputDecoration(
-                    labelText: "Password",
-                    border: OutlineInputBorder(),
+                  TextField(
+                    controller: passwordController,
+                    obscureText: true,
+                    decoration: InputDecoration(
+                      labelText: "Password",
+                      border: OutlineInputBorder(),
                   ),
                 ),
 
@@ -42,7 +48,17 @@ class MyApp extends StatelessWidget {
                 
                 child: ElevatedButton(
                   onPressed: () {
-                    print("Button ditekan");
+                    String username = usernameController.text;
+                    String password = passwordController.text;
+
+                    Navigator.pushNamed(
+                      context,
+                      '/dashboard',
+                      arguments: {
+                        'username': username,
+                        'password': password,
+                      },
+                    );
                   },
                   child: Text("Login"),
                 ),
